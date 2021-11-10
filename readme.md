@@ -21,7 +21,7 @@ git clone from here
 cd spring-petclinic  
 ./mvnw package  
 java -jar target/*.jar  
-access the project through localhost:8080  
+access the project through localhost:8080  </br></br>
 
 <b>Work that has been done on this project</b>
 1. Project has been compiled locally and launched
