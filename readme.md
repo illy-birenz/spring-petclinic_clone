@@ -35,5 +35,4 @@ https://stackoverflow.com/questions/43342762/specifying-the-maven-repository-url
 https://maven.apache.org/guides/introduction/introduction-to-repositories.html  
 Have been reasearched for quite a while, see the above two links as two exmaples.  
 Even with help of experienced devops hasn't been solved - <i>left unresolved</i>
-5. Readme.md file  
-You are reading it now
+5. Readme.md file is included (edited existing file)
