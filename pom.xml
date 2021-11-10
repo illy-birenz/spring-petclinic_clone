@@ -21,7 +21,11 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 
-    <!-- Web dependencies -->
+    <!-- Web 
+
+
+
+dencies -->
     <webjars-bootstrap.version>3.3.6</webjars-bootstrap.version>
     <webjars-jquery-ui.version>1.11.4</webjars-jquery-ui.version>
     <webjars-jquery.version>2.2.4</webjars-jquery.version>
@@ -33,33 +37,33 @@
   </properties>
 
   <dependencies>
-    <!-- Spring and Spring Boot dependencies, changed to maven repo -->
+    <!-- Spring and Spring Boot dependencies -->
     <dependency>
-      <groupId>repo.maven.apache.org/maven2</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
     <dependency>
-      <groupId>repo.maven.apache.org/maven2</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-cache</artifactId>
     </dependency>
     <dependency>
-      <groupId>repo.maven.apache.org/maven2</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
     <dependency>
-      <groupId>repo.maven.apache.org/maven2</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <dependency>
-      <groupId>repo.maven.apache.org/maven2</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-validation</artifactId>
     </dependency>
     <dependency>
-      <groupId>repo.maven.apache.org/maven2</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
     </dependency>
     <dependency>
-      <groupId>repo.maven.apache.org/maven2</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
         <exclusions>
@@ -115,7 +119,7 @@
     <!-- end of webjars -->
 
     <dependency>
-      <groupId>repo.maven.apache.org/maven2</groupId>
+      <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-devtools</artifactId>
       <optional>true</optional>
     </dependency>
