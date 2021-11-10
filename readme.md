@@ -17,9 +17,9 @@
  
 
 <b>How to compile and use on your own</b>  
-git clone from here  
-cd spring-petclinic  
-./mvnw package  
+git clone from this repo   
+on cloned location cd into spring-petclinic folder  
+run './mvnw package'  
 java -jar target/*.jar  
 access the project through localhost:8080  </br></br>
 
