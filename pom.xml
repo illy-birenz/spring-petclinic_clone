@@ -33,33 +33,33 @@
   </properties>
 
   <dependencies>
-    <!-- Spring and Spring Boot dependencies -->
+    <!-- Spring and Spring Boot dependencies, changed to maven repo -->
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>repo.maven.apache.org/maven2</groupId>
       <artifactId>spring-boot-starter-actuator</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>repo.maven.apache.org/maven2</groupId>
       <artifactId>spring-boot-starter-cache</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>repo.maven.apache.org/maven2</groupId>
       <artifactId>spring-boot-starter-data-jpa</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>repo.maven.apache.org/maven2</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>repo.maven.apache.org/maven2</groupId>
       <artifactId>spring-boot-starter-validation</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>repo.maven.apache.org/maven2</groupId>
       <artifactId>spring-boot-starter-thymeleaf</artifactId>
     </dependency>
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>repo.maven.apache.org/maven2</groupId>
       <artifactId>spring-boot-starter-test</artifactId>
       <scope>test</scope>
         <exclusions>
@@ -115,7 +115,7 @@
     <!-- end of webjars -->
 
     <dependency>
-      <groupId>org.springframework.boot</groupId>
+      <groupId>repo.maven.apache.org/maven2</groupId>
       <artifactId>spring-boot-devtools</artifactId>
       <optional>true</optional>
     </dependency>
